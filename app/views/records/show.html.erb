@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Artist:</strong>
+  <%= @record.artist %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @record.year %>
+</p>
+
+<p>
+  <strong>Genre:</strong>
+  <%= @record.genre %>
+</p>
+
+<%= link_to 'Edit', edit_record_path(@record) %> |
+<%= link_to 'Back', records_path %>
